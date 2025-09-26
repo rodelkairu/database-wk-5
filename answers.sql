@@ -8,3 +8,5 @@ GRANT INSERT ON salesDB.* TO 'bob'@'localhost';
 
 
 ALTER USER 'bob'@'localhost' IDENTIFIED BY 'P$55!23';
+
+--run FLUSH PRIVILEGES; to update
